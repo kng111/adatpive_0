@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.block {
+  width: 50%; /* Ширина блока */
+  background-size: 50px 50px; /* Размер фонового изображения */
+  background-repeat: no-repeat; /* Отключение повтора фонового изображения */
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  color: white; /* Цвет текста внутри блока */
+}
+/* Здесь ../ используется для перехода на уровень выше относительно места,  */
+
+/* @import url('/adaptive_block/css/block1/block1.css');
+
+
+@import url('block2/block2.css'); */
+
+
+.content {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px; 
+}
